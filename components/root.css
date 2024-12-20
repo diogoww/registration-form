@@ -1,0 +1,14 @@
+:root {
+    --orange: #B5644F;
+    --brown: #8C5557; 
+    --dark: #734652; 
+    --purple: #4D344E; 
+
+    --button-radius: 0.7rem;
+
+    --max-width: 758px;
+    --max-height: 420px;
+
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
