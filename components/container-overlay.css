@@ -1,0 +1,14 @@
+.container-overlay {
+    height: 100%;
+    left: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    transition: transform 0.6s ease-in-out;
+    width: 50%;
+    z-index: 100;
+}
+
+.container.right-panel .overlay {
+    transform: translateX(50%);
+}
