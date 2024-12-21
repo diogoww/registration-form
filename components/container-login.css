@@ -1,0 +1,9 @@
+.container-login {
+    left: 0;
+    width: 50%;
+    z-index: 2;
+}
+
+.container.right-panel .container-login {
+    transform: translateX(100%);
+}
