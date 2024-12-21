@@ -1,0 +1,6 @@
+.link {
+    color: var(--brown);
+    font-size: 0.9rem;
+    margin: 1.5rem 0;
+    text-decoration: none;
+}
