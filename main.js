@@ -1,16 +1,16 @@
-const signINbtn = document.getElementById("signIN");
-const signUPbtn = document.getElementById("signUP");
-const firstform = document.getElementById("form1");
-const secondform = document.getElementById("form2");
+const signINbutton = document.getElementById("signIN");
+const signUPbutton = document.getElementById("signUP");
+const firstForm = document.getElementById("form1");
+const secondForm = document.getElementById("form2");
 const container = document.querySelector(".container");
 
-signINbtn.addEventListener("click", () => {
+signINbutton.addEventListener("click", () => {
     container.classList.remove("right-panel");
 });
 
-signUPbtn.addEventListener("click", () => {
+signUPbutton.addEventListener("click", () => {
     container.classList.add("right-panel");
 });
 
-firstform.addEventListener("submit", (e) => e.preventDefault());
-secondform.addEventListener("submit", (e) => e.preventDefault());
+firstForm.addEventListener("submit", (e) => e.preventDefault());
+secondForm.addEventListener("submit", (e) => e.preventDefault());
