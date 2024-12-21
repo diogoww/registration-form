@@ -1,0 +1,8 @@
+.overlay-right {
+    right: 0;
+    transform: translateX(0);
+}
+
+.container.right-panel .overlay-right {
+    transform: translateX(20%);
+}

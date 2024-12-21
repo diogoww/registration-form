@@ -1,0 +1,7 @@
+.overlay-left {
+    transform: translateX(-20%);
+}
+
+.container.right-panel .overlay-left {
+    transform: translateX(0);
+}
