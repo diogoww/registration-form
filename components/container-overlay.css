@@ -9,6 +9,6 @@
     z-index: 100;
 }
 
-.container.right-panel .overlay {
-    transform: translateX(50%);
+.container.right-panel .container-overlay {
+    transform: translateX(-100%);
 }
